@@ -7,7 +7,7 @@ async function bootstrap() {
 
   const corsOptions: CorsOptions = {
     origin: 'https://task-tracker-client.vercel.app/', 
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     credentials: true,
   };
 
