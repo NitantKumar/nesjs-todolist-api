@@ -10,7 +10,9 @@ async function bootstrap() {
       'https://www.task-tracker-client-tau.vercel.app',
       'http://www.task-tracker-client-tau.vercel.app',
       'https://task-tracker-client-tau.vercel.app',
-      'http://task-tracker-client-tau.vercel.app'
+      'http://task-tracker-client-tau.vercel.app',
+      'https://localhost:3000',
+      'http://localhost:3000'
     ],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     credentials: true,
