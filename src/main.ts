@@ -14,7 +14,9 @@ async function bootstrap() {
       'https://localhost:8080',
       'http://localhost:8080',
       'https://50.17.81.170:3000',
-      'http://50.17.81.170:3000'
+      'http://50.17.81.170:3000',
+      'https://50.17.81.170:8080',
+      'http://50.17.81.170:8080'
     ],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     credentials: true,
