@@ -6,7 +6,12 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   const corsOptions: CorsOptions = {
-    origin: 'https://www.task-tracker-client-64lgt7auo-rohan-shrivastavas-projects.vercel.app', 
+    origin: [
+      'https://www.task-tracker-client-tau.vercel.app',
+      'http://www.task-tracker-client-tau.vercel.app',
+      'https://task-tracker-client-tau.vercel.app',
+      'http://task-tracker-client-tau.vercel.app'
+    ],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     credentials: true,
   };
